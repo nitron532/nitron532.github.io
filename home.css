@@ -1,0 +1,26 @@
+
+
+.basicText{
+    font-family: 'Ubuntu', sans-serif;
+    color: #3c4043;
+    font-weight: 350;
+    
+}
+.navBarText{
+    font-family: 'Roboto', sans-serif;
+    color: #3c4043;
+    font-weight: 350;
+}
+#firstHeader{
+    background-color: #A7C7E7;
+}
+.someBold{
+    font-weight:"500";
+}
+.vertical-centerHeader {
+    margin: 0;
+    position: absolute;
+    top: 21%;
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
