@@ -12,15 +12,33 @@
     font-weight: 350;
 }
 #firstHeader{
-    background-color: #A7C7E7;
+    /* background-color: #A7C7E7; */
+    background-image:url("");
 }
 .someBold{
     font-weight:"500";
 }
-.vertical-centerHeader {
-    margin: 0;
-    position: absolute;
-    top: 21%;
-    -ms-transform: translateY(-25%);
-    transform: translateY(-25%);
+
+
+  .card{
+	border: 1px solid #3c4043;
+	padding: 10px;
+	box-shadow: 15px 20px #e0dede;
   }
+
+  .thisisforpickingcolorsonly{
+	background-image: linear-gradient(#0a2830,#e8e8e8);
+}
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.expand {
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+}
