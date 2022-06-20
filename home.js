@@ -1,6 +1,7 @@
 
 
 const main = () =>{
+  $(".projectsPage").hide();
     $( ".expand" ).hover(
         function() {
           $( this ).addClass("transition");
@@ -8,8 +9,21 @@ const main = () =>{
           $( this ).removeClass("transition");
         }
       );
-
-
+$(".projects").on("click", () =>{
+  $(".homePage").fadeOut();
+  $(".skillsPage").fadeOut();
+  $(".projectsPage").delay(500).fadeIn();
+})
+$(".skills").on("click", () =>{
+  $(".homePage").fadeOut();
+  $(".projectsPage").fadeOut();
+  $(".skillsPage").delay(500).fadeIn();
+})
+$(".backHome").on("click",()=>{
+  $(".projectsPage").fadeOut();
+  $(".skillsPage").fadeOut();
+  $(".homePage").delay(500).fadeIn();
+})
 }
 
 $(document).ready(main);
