@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="input.css">
+</head>
+
+<body>
+  <div class="row">
+  <div class="col-6" style = "margin:auto;">
+  <form id ="userInput">
+    <input id="locationInputForm" type="text" class="form-control text-center" placeholder="Location - Enter name or zipcode" value="">
+  </form>
+  </div>
+</div>
+<div class ="row">
+  <div class = "col-6 text-center" style = "margin:auto;">
+  <div class="dropdown">
+    <button class="btn dropdown-toggle" type="button" id="dropdownSelect" data-toggle="dropdown" aria-expanded="false">
+      Select Temperature Unit
+    </button>
+    <div class="dropdown-menu text-center" aria-labelledby="dropdownMenu2" >
+      <button id = "fahrenheitSelect" class="dropdown-item" type="button">Fahrenheit</button>
+      <button id="celsiusSelect" class="dropdown-item" type="button">Celsius</button>
+    </div>
+  </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  <script src="input.js" async defer></script>
+</body>
+
+</html>

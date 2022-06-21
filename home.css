@@ -42,6 +42,11 @@
 .hrReduce{
     margin-right: +2.4rem !important;
 }
+
+.hrReduceBoth{
+    margin-right: +20rem !important;
+    margin-left: +20rem !important;
+}
 .descriptionLower{
     margin-top: +1.3rem !important;
 }
@@ -54,4 +59,10 @@
 }
 body{
     overflow-x: hidden;
+}
+#projectHeader{
+    margin-left: -1rem !important;
+}
+#skillsHeader{
+    margin-left: -1rem !important;
 }

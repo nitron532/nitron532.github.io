@@ -24,10 +24,10 @@ $(".backHome").on("click",()=>{
   $(".skillsPage").fadeOut();
   $(".homePage").delay(500).fadeIn();
 })
+$("#weather").on("click",() =>{
+  window.location.href='weather/input.html';
+})
 }
 
 $(document).ready(main);
 
-
-//add class to all home page elements, when clicked on project button,
-// fade out all home page elements and fade in all product page elements

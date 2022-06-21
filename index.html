@@ -28,9 +28,6 @@
               <li class="nav-item">
                 <a class="nav-link navbarText skills" href="#">Skills</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li> -->
             </ul>
           </div>
         </div>
@@ -83,22 +80,53 @@
     </div> <!--end of homePage content-->
     <div class = "projectsPage hide">
       <div class="row">
-        <div class = "col-12" id = "projectsHeader">
+        <div class = "col-12">
           <div class="container">
             <div class="row">
-              <h2 class="basicText text-center pt-5 mt-3"><strong>Projects<div class="hrReduce"><hr> </hr> </div> lorem ipsum aljfe fesd es</strong></h2>
+              <h2 class="basicText text-center pt-5 mt-3" id="projectHeader"><strong>Projects</strong><div class="hrReduceBoth"><hr> </hr> </div></h2>
+              <div class ="col-12">
+                <div class = "container">
+                  <div class="row">
+              <div class="col-6 text-center pe-5">
+              <div class="card expand projects" id="weather">
+                <h3 class="card-title basicText">Weather Report</h3>
+                <div class="card-body">
+                  <h4 class="basicText ">This web app was created for my sophomore engineering class final project. It uses 
+                    <a class="basicText" href="https://www.weatherapi.com/">weatherapi.com</a> to retrieve weather data in the form of a JSON object about a user inputed location.
+                    It displays wind, air quality, and forecast information.
+                  </h4>
+                </div>
+                </div>
+              </div>
+      
+      
+              <div class="col-6 text-center">
+                <div class="card expand skills">
+                  <h3 class="card-title basicText ">Random Word Generator</h3>
+                  <div class="card-body">
+                    <h4 class="basicText">This was a quick JSFiddle experiment where I generated pseudo words by combining two letter 
+                      phrases that consisted of a consonant and a vowel, each from two lists. Then, a random number generator 
+                      chooses from each list to create these two letter phrases, then combines them in a string.
+                    </h4>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
             </div>
           </div>
         </div>
       </div>
 
     </div> <!--end of projectsPage content-->
+
     <div class = "skillsPage hide">
       <div class="row">
-        <div class = "col-12" id = "skillsHeader">
+        <div class = "col-12">
           <div class="container">
             <div class="row">
-              <h2 class="basicText text-center pt-5 mt-3"><strong>Skills<div class="hrReduce"><hr> </hr> </div> lorem ipsum aljfe fesd es</strong></h2>
+              <h2 id="skillsHeader" class="basicText text-center pt-5 mt-3"><strong>Skills<div class="hrReduceBoth"><hr> </hr> </div> lorem ipsum aljfe fesd es</strong></h2>
             </div>
           </div>
         </div>
