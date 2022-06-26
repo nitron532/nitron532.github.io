@@ -32,4 +32,7 @@ if(localStorage.getItem("savedTempInput") !== null){
       else{
         document.getElementById("dropdownSelect").textContent = localStorage.getItem("temperatureInput");
       }
+      document.getElementById("weatherInputHome").onclick = () =>{
+        location.href="../index.html";
+      }
     });

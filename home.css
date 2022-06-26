@@ -66,3 +66,18 @@ body{
 #skillsHeader{
     margin-left: -1rem !important;
 }
+
+.invert{
+    filter: invert(100%);
+}
+
+.skillIcon{
+    width: 100px !important;
+    height: 100px !important;
+
+}
+
+.tippy-box[data-theme~='light'] {
+    background-color: lightgray;
+    color: #3c4043;
+  }

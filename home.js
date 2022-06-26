@@ -1,5 +1,4 @@
 
-
 const main = () =>{
   $(".projectsPage").hide();
     $( ".expand" ).hover(
@@ -27,7 +26,7 @@ $(".backHome").on("click",()=>{
 $("#weather").on("click",() =>{
   window.location.href='weather/input.html';
 })
+
 }
 
 $(document).ready(main);
-
