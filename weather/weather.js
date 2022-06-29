@@ -90,7 +90,7 @@ async function retrieve () {
             document.getElementById("grad").style = "background-image: linear-gradient(#2d4e5a,#fdfdfd);"
             break;
     }
-    let iconTmr
+    let iconTmr;
     switch (weatherDataText.forecast.forecastday[1].day.condition.text){
         case "Mist":
             iconTmr = "icons/misty.png";
