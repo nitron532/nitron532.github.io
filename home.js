@@ -26,7 +26,24 @@ $(".backHome").on("click",()=>{
 $("#weather").on("click",() =>{
   window.location.href='weather/input.html';
 })
+$("#randomWordGenerator").on("click",() =>{
+  window.location.href='randomword/word.html';
+})
 
 }
 
 $(document).ready(main);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
