@@ -32,12 +32,12 @@ $(".aboutMe").on("click", () =>{
   $(".projectsPage").fadeOut();
   $(".aboutMePage").delay(500).fadeIn();
 })
-$("#weather").on("click",() =>{
-  window.location.href='weather/input.html';
-})
-$("#randomWordGenerator").on("click",() =>{
-  window.location.href='randomword/word.html';
-})
+// $("#weather").on("click",() =>{
+//   window.location.href='weather/input.html';
+// })
+// $("#randomWordGenerator").on("click",() =>{
+//   window.location.href='randomword/word.html';
+// })
 
 }
 
