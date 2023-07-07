@@ -34,7 +34,11 @@ css:
     left: 0;
 }
 */
-
+.cardShadow{
+	padding: 10px;
+	box-shadow: 15px 13px #e0dede;
+    z-index: 999;
+  }
 
 
 
@@ -65,12 +69,12 @@ css:
 	background-image: linear-gradient(#0a2830,#e8e8e8);
 }
 .transition {
-    -webkit-transform: scale(1.1); 
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
     cursor: pointer;
-    box-shadow: 10px -5px #8C59AF;
+    
 }
 .expand {
 	-webkit-transition: all .25s ease-in-out;
@@ -78,6 +82,13 @@ css:
 	-o-transition: all .25s ease-in-out;
 	-ms-transition: all .25s ease-in-out;
 }
+.shadowExpand{ 
+    -webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+}
+/* shadowExpand needed to smoothly add shadow to only header text */
 .hrReduce{
     margin-right: +2.4rem !important;
 }
@@ -104,11 +115,6 @@ body{
     filter: invert(100%);
 }
 
-.skillIcon{
-    width: 100px !important;
-    height: 100px !important;
-
-}
 
 .tippy-box[data-theme~='light'] {
     background-color: lightgray;

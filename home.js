@@ -3,12 +3,22 @@ const main = () =>{
     $( ".expand" ).hover(
         function() {
           $( this ).addClass("transition");
-          // $( this ).addClass("headerShadow");
+         
         }, function() {
           $( this ).removeClass("transition");
-          // $( this ).removeClass("headerShadow");
+         
         }
       );
+
+  $(".textOnlyShadow").hover(
+    function() {
+      
+      $( this ).addClass("cardShadow");
+    }, function() {
+      
+      $( this ).removeClass("cardShadow");
+    }
+  );
 // $(".projects").on("click", () =>{
 //   $(".homePage").fadeOut();
 //   $(".skillsPage").fadeOut();
