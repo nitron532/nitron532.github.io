@@ -1,4 +1,42 @@
 
+/* .headerShadow{
+ box-shadow: 10px -5px #8C59AF;
+} */
+
+
+/* 
+html
+
+
+    <div id="slide">
+    
+    </div>
+    test
+   
+
+
+
+
+
+css:
+#slide {
+    position: absolute;
+    left: -100px;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: 1s;
+    z-index: -1;
+}
+
+.wrapper:hover #slide {
+    transition: 1s;
+    left: 0;
+}
+*/
+
+
+
 
 .basicText{
     font-family: 'Ubuntu', sans-serif;
@@ -32,6 +70,7 @@
     -o-transform: scale(1.1);
     transform: scale(1.1);
     cursor: pointer;
+    box-shadow: 10px -5px #8C59AF;
 }
 .expand {
 	-webkit-transition: all .25s ease-in-out;
@@ -59,12 +98,6 @@
 }
 body{
     overflow-x: hidden;
-}
-#projectHeader{
-    margin-left: -1rem !important;
-}
-#skillsHeader{
-    margin-left: -1rem !important;
 }
 
 .invert{

@@ -1,25 +1,26 @@
 
 const main = () =>{
-  $(".projectsPage").hide();
     $( ".expand" ).hover(
         function() {
           $( this ).addClass("transition");
+          // $( this ).addClass("headerShadow");
         }, function() {
           $( this ).removeClass("transition");
+          // $( this ).removeClass("headerShadow");
         }
       );
-$(".projects").on("click", () =>{
-  $(".homePage").fadeOut();
-  $(".skillsPage").fadeOut();
-  $(".aboutMePage").fadeOut();
-  $(".projectsPage").delay(500).fadeIn();
-})
-$(".skills").on("click", () =>{
-  $(".homePage").fadeOut();
-  $(".projectsPage").fadeOut();
-  $(".aboutMePage").fadeOut();
-  $(".skillsPage").delay(500).fadeIn();
-})
+// $(".projects").on("click", () =>{
+//   $(".homePage").fadeOut();
+//   $(".skillsPage").fadeOut();
+//   $(".aboutMePage").fadeOut();
+//   $(".projectsPage").delay(500).fadeIn();
+// })
+// $(".skills").on("click", () =>{
+//   $(".homePage").fadeOut();
+//   $(".projectsPage").fadeOut();
+//   $(".aboutMePage").fadeOut();
+//   $(".skillsPage").delay(500).fadeIn();
+// })
 $(".backHome").on("click",()=>{
   $(".projectsPage").fadeOut();
   $(".skillsPage").fadeOut();
@@ -32,6 +33,7 @@ $(".aboutMe").on("click", () =>{
   $(".projectsPage").fadeOut();
   $(".aboutMePage").delay(500).fadeIn();
 })
+
 // $("#weather").on("click",() =>{
 //   window.location.href='weather/input.html';
 // })
