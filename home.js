@@ -1,5 +1,6 @@
 
 const main = () =>{
+
     $( ".expand" ).hover(
         function() {
           $( this ).addClass("transition");
@@ -19,37 +20,24 @@ const main = () =>{
       $( this ).removeClass("cardShadow");
     }
   );
-// $(".projects").on("click", () =>{
-//   $(".homePage").fadeOut();
-//   $(".skillsPage").fadeOut();
-//   $(".aboutMePage").fadeOut();
-//   $(".projectsPage").delay(500).fadeIn();
-// })
-// $(".skills").on("click", () =>{
-//   $(".homePage").fadeOut();
-//   $(".projectsPage").fadeOut();
-//   $(".aboutMePage").fadeOut();
-//   $(".skillsPage").delay(500).fadeIn();
-// })
-$(".backHome").on("click",()=>{
-  $(".projectsPage").fadeOut();
-  $(".skillsPage").fadeOut();
-  $(".aboutMePage").fadeOut();
-  $(".homePage").delay(500).fadeIn();
+
+$("#landscapeHeader").on("click", () =>{
+  $(".homePage").fadeOut(function(){
+    window.location.href = "landscape.html";
+  });
 })
-$(".aboutMe").on("click", () =>{
-  $(".homePage").fadeOut();
-  $(".skillsPage").fadeOut();
-  $(".projectsPage").fadeOut();
-  $(".aboutMePage").delay(500).fadeIn();
+$("#sportsHeader").on("click", () =>{
+  $(".homePage").fadeOut(function(){
+    window.location.href = "sports.html";
+  });
+})
+$("#streetHeader").on("click", () =>{
+  $(".homePage").fadeOut(function(){
+    window.location.href = "street.html";
+  });
 })
 
-// $("#weather").on("click",() =>{
-//   window.location.href='weather/input.html';
-// })
-// $("#randomWordGenerator").on("click",() =>{
-//   window.location.href='randomword/word.html';
-// })
+
 
 }
 

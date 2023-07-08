@@ -40,7 +40,15 @@ css:
     z-index: 999;
   }
 
-
+#landscapePage{
+    display:none;
+}
+#sportsPage{
+    display:none;
+}
+#streetPage{
+    display:none;
+}
 
 .basicText{
     font-family: 'Ubuntu', sans-serif;
