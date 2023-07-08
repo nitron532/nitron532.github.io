@@ -49,6 +49,9 @@ css:
 #streetPage{
     display:none;
 }
+#gearPage{
+    display:none;
+}
 
 .basicText{
     font-family: 'Ubuntu', sans-serif;

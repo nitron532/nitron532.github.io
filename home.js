@@ -36,6 +36,11 @@ $("#streetHeader").on("click", () =>{
     window.location.href = "street.html";
   });
 })
+$("#gearNavBar").on("click", () =>{
+  $(".homePage").fadeOut(function(){
+    window.location.href = "gear.html";
+  });
+})
 
 
 
