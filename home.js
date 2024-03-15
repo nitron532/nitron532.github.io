@@ -1,5 +1,6 @@
 
 const main = () =>{
+  $("#homePage").fadeIn();
 
     $( ".expand" ).hover(
         function() {
@@ -21,9 +22,9 @@ const main = () =>{
     }
   );
 
-$("#landscapeHeader").on("click", () =>{
+$("#stillsHeader").on("click", () =>{
   $(".homePage").fadeOut(function(){
-    window.location.href = "landscape.html";
+    window.location.href = "stills.html";
   });
 })
 $("#sportsHeader").on("click", () =>{
@@ -39,6 +40,11 @@ $("#streetHeader").on("click", () =>{
 $("#gearNavBar").on("click", () =>{
   $(".homePage").fadeOut(function(){
     window.location.href = "gear.html";
+  });
+})
+$("#concertsHeader").on("click", () =>{
+  $(".homePage").fadeOut(function(){
+    window.location.href = "concerts.html";
   });
 })
 

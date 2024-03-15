@@ -1,10 +1,9 @@
-
 const main = ()=>{
-    $("#landscapePage").fadeIn();
+    $("#concertsPage").fadeIn();
 
 
     $(".backHome").on("click",()=>{
-        $("#landscapePage").fadeOut(function(){
+        $("#concertsPage").fadeOut(function(){
           window.location.href = "index.html";
         })
         })
