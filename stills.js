@@ -17,6 +17,7 @@ const main = ()=>{
           window.location.href = "index.html";
         })
         })
+        //loop thru directory, use length instead of hardcoded counter?
        let stillsList = ["IMG_4534.JPG","IMG_1995.jpg","IMG_1997.jpg",
        "IMG_2571.jpg","IMG_3021.JPG","IMG_3808.JPG","IMG_4171.JPG"
       ,"IMG_4324.JPG","IMG_4400.JPG","IMG_4515.jpg","IMG_4516.JPG","IMG_4517.jpg"
