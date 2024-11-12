@@ -18,16 +18,12 @@ const main = ()=>{
         })
         })
         //loop thru directory, use length instead of hardcoded counter?
-       let stillsList = ["IMG_4534.JPG","IMG_1995.jpg","IMG_1997.jpg",
-       "IMG_2571.jpg","IMG_3021.JPG","IMG_3808.JPG","IMG_4171.JPG"
-      ,"IMG_4324.JPG","IMG_4400.JPG","IMG_4515.jpg","IMG_4516.JPG","IMG_4517.jpg"
-    ,"IMG_4518.jpg","IMG_4530.jpg","IMG_4800.JPG","IMG_4803.JPG"
-  ,"IMG_4810.JPG","IMG_4813.JPG","IMG_4823.JPG","IMG_4959.jpg"];
+       let stillsList = ["IMG_0399.JPG", "IMG_0395.JPG" ];
        let counter = 0;
-        let pic = "portfolio\\Stills\\IMG_4534.JPG";
+        let pic = "portfolio\\Stills\\IMG_0399.JPG"; //cover image
         $("#stillsImage").attr("src",pic);
         $("#stillsImage").on("click",()=>{
-          if(counter === 19){
+          if(counter === stillsList.length-1){
             counter = 0;
           }
           else{
