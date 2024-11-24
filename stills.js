@@ -11,6 +11,15 @@ const main = ()=>{
        
       }
     );
+    $('.variable-width').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      centerMode: true,
+      variableWidth: true
+      
+    });
 
     $(".backHome").on("click",()=>{
         $("#stillsPage").fadeOut(function(){
@@ -18,8 +27,9 @@ const main = ()=>{
         })
         })
         //loop thru directory, use length instead of hardcoded counter?
-       let stillsList = ["IMG_0399.JPG", "IMG_0395.JPG" ];
-       let counter = 0;
+        /*
+        let stillsList = ["IMG_0399.JPG", "IMG_0395.JPG" ];
+        let counter = 0;
         let pic = "portfolio\\Stills\\IMG_0399.JPG"; //cover image
         $("#stillsImage").attr("src",pic);
         $("#stillsImage").on("click",()=>{
@@ -32,5 +42,6 @@ const main = ()=>{
           pic = "portfolio\\Stills\\" + stillsList[counter]
           $("#stillsImage").attr("src",pic);
         })
+        */
 }
 $(document).ready(main);
