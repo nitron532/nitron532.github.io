@@ -145,8 +145,4 @@ body{
 }
 
 
-.tippy-box[data-theme~='light'] {
-    background-color: lightgray;
-    color: #3c4043;
-  }
 

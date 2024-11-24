@@ -11,6 +11,7 @@ const main = ()=>{
        
       }
     );
+    $('.single-item').slick();
     $('.variable-width').slick({
       dots: true,
       infinite: true,
