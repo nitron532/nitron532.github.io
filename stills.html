@@ -15,19 +15,37 @@
         <link rel="stylesheet" href="home.css">
 
         <style> <!-- for image tags-->
-          /* * {
-              margin: 0;
-              padding: 0;
-          } */
           .imgbox {
               display: grid;
               height: 80%;
           }
-          .center-fit{
+          .portrait{
             max-width: 70%;
             max-height: 70vh;
-            margin-left: 100px; ;
+            margin-left: 70px;
           }
+          .landscape{
+            max-width: 90%;
+            max-height: 100vh;
+            margin-left: 25px;
+          }
+          .slider.responsive {
+    background-color:whitesmoke;
+}
+h3 {
+    border: 5px solid #000;
+    background: #FFF;
+    height:100px;
+    height:100px;
+    margin: 5px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.slick-track {
+    background-color:whitesmoke;
+    margin:auto;
+}
 
         </style>
 
@@ -36,8 +54,38 @@
       <div id="nav-placeholder"></div>
         
       <div id = "stillsPage">
+        <div class = "slider responsive"> <!-- portrait orientation-->
 
-        <div class = "row">
+          <div> <img class = "portrait" src="portfolio\\Stills\\IMG_0399.JPG"> </div>
+          <div> <img class = "portrait" src="portfolio\\Stills\\IMG_0395.JPG"> </div>
+          <div> <img class = "portrait" src="portfolio\\Stills\\IMG_0242.JPG"> </div>
+          <div> <img class = "portrait" src="portfolio\\Stills\\IMG_0248.JPG"> </div>
+
+          <div> <img class = "portrait" src="portfolio\\Stills\\IMG_0387.JPG"> </div>
+          <div> <img class = "portrait" src="portfolio\\Stills\\IMG_6461.jpg"> </div>
+          <div> <img class = "portrait" src="portfolio\\Stills\\IMG_5811.jpg"> </div>
+          <div> <img class = "portrait" src="portfolio\\Stills\\IMG_4515.jpg"> </div>
+
+          <div> <img class = "portrait" src="portfolio\\Stills\\IMG_4813.JPG"> </div>
+          <div> <img class = "portrait" src="portfolio\\Stills\\IMG_4800.JPG"> </div>
+          <div> <img class = "portrait" src="portfolio\\Stills\\IMG_6388.JPG"> </div>
+          <div> <img class = "portrait" src="portfolio\\Stills\\IMG_4803.JPG"> </div>
+
+        </div>
+        <div class = "slider responsive"> <!--landscape orientation-->
+
+          <div><img class = "landscape" src="portfolio\\Stills\\IMG_0412.JPG"></div>
+          <div><img class = "landscape" src="portfolio\\Stills\\IMG_6456.JPG"></div>
+          <div><img class = "landscape" src="portfolio\\Stills\\IMG_0412.JPG"></div>
+          <div><img class = "landscape" src="portfolio\\Stills\\IMG_6458.JPG"></div>
+
+          <div><img class = "landscape" src="portfolio\\Stills\\005008510029.JPEG"></div>
+          <div><img class = "landscape" src="portfolio\\Stills\\IMG_0405.JPG"></div>
+          <div><img class = "landscape" src="portfolio\\Stills\\IMG_1995.JPG"></div>
+          <div><img class = "landscape" src="portfolio\\Stills\\IMG_3808.JPG"></div>
+
+        </div>
+        <!-- <div class = "row">
         <div class="col-1"></div>
         <div class = "col-3">
         <div class="variable-width slider">
@@ -46,7 +94,7 @@
         <img class = "center-fit" src="portfolio\\Stills\\IMG_0395.JPG">
         </div>
         </div>
-        </div>
+        </div> -->
 
       </div> <!-- end stillspage div-->
 
