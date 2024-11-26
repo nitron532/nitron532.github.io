@@ -2,27 +2,15 @@
 const main = ()=>{
     $("#stillsPage").fadeIn();
 
-    // $( ".imgExpand" ).hover(
-    //   function() {
-    //     $( this ).addClass("imgTransition");
-
-    //   }, function() {
-    //     $( this ).removeClass("imgTransition");
-       
-    //   }
-    // );
-
     $( ".imgExpand" ).hover(
       function() {
         $( this ).addClass("imgTransition");
        
       }, function() {
         $( this ).removeClass("imgTransition");
-       
       }
     );
     $('.responsivePortrait').slick({
-      dots: true,
       infinite: true,
       speed: 300,
       slidesToShow: 4,
@@ -34,7 +22,6 @@ const main = ()=>{
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: true
           }
         },
         {
@@ -55,7 +42,6 @@ const main = ()=>{
         });
 
         $('.responsiveLandscape').slick({
-          dots: true,
           infinite: true,
           speed: 300,
           slidesToShow: 3,
@@ -67,7 +53,6 @@ const main = ()=>{
                 slidesToShow: 2,
                 slidesToScroll: 2,
                 infinite: true,
-                dots: true
               }
             },
             {
