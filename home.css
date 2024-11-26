@@ -1,46 +1,3 @@
-
-/* .headerShadow{
- box-shadow: 10px -5px #8C59AF;
-} */
-
-
-/* 
-html
-
-
-    <div id="slide">
-    
-    </div>
-    test
-   
-
-
-
-
-
-css:
-#slide {
-    position: absolute;
-    left: -100px;
-    width: 100px;
-    height: 100px;
-    background: blue;
-    transition: 1s;
-    z-index: -1;
-}
-
-.wrapper:hover #slide {
-    transition: 1s;
-    left: 0;
-}
-*/
-.cardShadow{
-	padding: 10px;
-	box-shadow: 15px 13px #e0dede;
-    z-index: 999;
-  }
-
-
 #homePage{
     display:none;
 }
@@ -83,6 +40,11 @@ css:
   .thisisforpickingcolorsonly{
 	background-image: linear-gradient(#0a2830,#e8e8e8);
 }
+.cardShadow{
+	padding: 10px;
+	box-shadow: 15px 13px #e0dede;
+    z-index: 999;
+}
 .transition {
     -webkit-transform: scale(1.2); 
     -moz-transform: scale(1.2);
@@ -92,10 +54,10 @@ css:
     
 }
 .imgTransition {
-    -webkit-transform: scale(1.05); 
-    -moz-transform: scale(1.05);
-    -o-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.04); 
+    -moz-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    transform: scale(1.04);
     cursor: pointer;
     
 }
