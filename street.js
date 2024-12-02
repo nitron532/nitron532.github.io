@@ -1,8 +1,8 @@
 const main = ()=>{
-    $(".pageContent").fadeIn();
+    $("#streetPage").fadeIn();
 
 
-    $(".backHome").on("click",()=>{
+    $("#streetPage").on("click",()=>{
         $(".pageContent").fadeOut(function(){
           window.location.href = "index.html";
         })
