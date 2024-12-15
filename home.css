@@ -10,8 +10,34 @@
 #streetPage{
     display:none;
 }
-#gearPage{
+#concertsPage{
     display:none;
+}
+.imgbox { /*keep this */
+    display: grid;
+    height: 80%;
+}
+.portrait{
+  max-width: 70%;
+  max-height: 70vh;
+  margin-left: 70px;
+}
+.psPortrait{
+  max-width: 80%;
+  max-height: 80vh;
+  margin-left: 60px;
+}
+.landscape{
+  max-width: 90%;
+  max-height: 100vh;
+  margin-left: 25px;
+}
+.slider.responsive {
+  background-color:whitesmoke;
+}
+.slick-track {
+  background-color:whitesmoke;
+  margin:auto;
 }
 
 .basicText{

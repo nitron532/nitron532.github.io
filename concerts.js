@@ -1,12 +1,12 @@
 const main = ()=>{
-    $("#concertsPage").fadeIn();
+  $("#concertsPage").fadeIn();
 
 
-    $(".backHome").on("click",()=>{
-        $("#concertsPage").fadeOut(function(){
-          window.location.href = "index.html";
-        })
-        })
+  $(".backHome").on("click",()=>{
+      $("#concertsPage").fadeOut(function(){
+        window.location.href = "index.html";
+      })
+      })
 
 
 }
