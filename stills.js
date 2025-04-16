@@ -1,5 +1,8 @@
 
 const main = ()=>{
+  $(window).on("load", () =>{
+    $(".loading").hide();
+  }); 
     $("#stillsPage").fadeIn();
     
     $(".backHome").on("click",()=>{

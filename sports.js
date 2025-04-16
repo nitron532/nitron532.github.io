@@ -1,4 +1,7 @@
 const main = ()=>{
+  $(window).on("load", () =>{
+    $(".loading").hide();
+  }); 
     $("#sportsPage").fadeIn();
 
 

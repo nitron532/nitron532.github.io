@@ -1,4 +1,7 @@
 const main = ()=>{
+  $(window).on("load", () =>{
+    $(".loading").hide();
+  }); 
     $("#streetPage").fadeIn();
 
 
