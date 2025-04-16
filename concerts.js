@@ -1,7 +1,7 @@
 const main = ()=>{
   $("#concertsPage").fadeIn();
 
-  $(window).load(function(){
+  $(window).on(load, function(){
     $(".loading").fadeOut("fast");
   }); 
 
