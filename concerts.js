@@ -1,8 +1,8 @@
 const main = ()=>{
   $("#concertsPage").fadeIn();
 
-  $(window).on(load, function(){
-    $(".loading").fadeOut("fast");
+  $(window).on("load", () =>{
+    $(".loading").hide();
   }); 
 
   $(".backHome").on("click",()=>{
