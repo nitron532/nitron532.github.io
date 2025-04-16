@@ -1,10 +1,8 @@
 const main = ()=>{
-  $("#concertsPage").fadeIn();
-
   $(window).on("load", () =>{
     $(".loading").hide();
   }); 
-
+  $("#concertsPage").fadeIn();
   $(".backHome").on("click",()=>{
       $("#concertsPage").fadeOut(function(){
         window.location.href = "index.html";
