@@ -1,2 +1,2 @@
-maybe add scroll to top button with smooth scrolling on skills page
+
 add media queries so i can look at my shit on mobile
